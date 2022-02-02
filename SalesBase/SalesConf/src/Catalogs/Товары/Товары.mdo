@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce611925-5a7e-4f09-991a-57801776e771">
+  <producedTypes>
+    <objectType typeId="a6f44114-76d9-48da-82b7-e423c0db0888" valueTypeId="42108428-7e11-4367-bfda-3794541d39c2"/>
+    <refType typeId="f1e8a6f6-39c8-4463-9d64-e56f8184c642" valueTypeId="6263f08f-c07f-4aea-a217-bf9eb095ae47"/>
+    <selectionType typeId="761ee664-79a9-4809-845f-4c4d6bfa0fdf" valueTypeId="d515afe7-55d4-498d-a066-78f1526b55fd"/>
+    <listType typeId="e4ed8325-ae78-4f47-8578-b9b4d62b652b" valueTypeId="b2afd921-4205-4b11-8b39-2792cc2eaf86"/>
+    <managerType typeId="58baed04-b564-473c-b48c-d7cbe5b26204" valueTypeId="80c67d80-c922-48b2-a32d-e5034493c756"/>
+  </producedTypes>
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Товары.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Товары.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Товары.Form.ФормаСписка</defaultListForm>
+  <forms uuid="0d417b1c-17f1-4f8c-8f56-2a8dd14a52cb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
